@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/registroserviciosXML"
+    android:layout_width="fill_parent"
+    android:layout_height="100dp"
+    android:padding="4dip">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:padding="1dp">
+
+            <ImageView
+                android:id="@+id/imgFotoALUMNO"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignLeft="@id/Observaciones_ITEM"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="1dp"
+                android:layout_marginLeft="1dp"
+                android:src="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/CodigoServicio_ITEM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="60dp"
+                android:layout_marginLeft="62dp"
+                android:text="CodigoServicio_ITEM" />
+
+            <TextView
+                android:id="@+id/NombreCliente_ITEM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="62dp"
+                android:layout_marginLeft="62dp"
+                android:layout_marginTop="24dp"
+                android:text="NombreCliente_ITEM" />
+
+            <TextView
+                android:id="@+id/NumeroOrdenServicio_ITEM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="62dp"
+                android:layout_marginLeft="62dp"
+                android:layout_marginTop="49dp"
+                android:text="NumeroOrdenServicio_ITEM" />
+
+            <TextView
+                android:id="@+id/FechaProgramada_ITEM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="62dp"
+                android:layout_marginLeft="62dp"
+                android:layout_marginTop="71dp"
+                android:text="FechaProgramada_ITEM" />
+
+            <TextView
+                android:id="@+id/Linea_ITEM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="266dp"
+                android:layout_marginLeft="266dp"
+                android:layout_marginTop="10dp"
+                android:text="Linea_ITEM" />
+
+            <TextView
+                android:id="@+id/Estado_ITEM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="266dp"
+                android:layout_marginLeft="266dp"
+                android:layout_marginTop="36dp"
+                android:text="Estado_ITEM" />
+
+            <TextView
+                android:id="@+id/Observaciones_ITEM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Linea_ITEM"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="266dp"
+                android:layout_marginLeft="266dp"
+                android:layout_marginTop="33dp"
+                android:text="Observaciones_ITEM"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
